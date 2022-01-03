@@ -1,0 +1,45 @@
+.box1{
+    background-color: rgb(47, 202, 112);
+    border: 2px solid;
+    width: 96%;
+    height: 20%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.box2{
+    background-color: rgb(210, 223, 33);
+    border: 2px solid;
+    width: 17%;
+    height: 34%;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.box3{
+    background-color: rgb(241, 127, 20);
+    border: 2px solid;
+    width: 76%;
+    height: 34%;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+}
+.box4{
+    background-color: rgb(210, 223, 33);
+    border: 2px solid;
+    width: 17%;
+    height: 28%;
+    position: absolute;
+    top: 69%;
+    left: 2%;
+}
+.box5{
+    background-color: rgb(32, 196, 207);
+    border: 2px solid;
+    width: 76%;
+    height: 28%;
+    position: absolute;
+    top: 69%;
+    left: 22%;
+}

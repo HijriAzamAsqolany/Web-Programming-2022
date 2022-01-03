@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body style="max-width: 1000px; border: 1px solid black;margin:auto; ">
+    <header>
+        <nav style="display: flex; justify-content: space-between; padding: 10px 30px;">
+            <ul style="list-style-type: none; display: flex; gap: 10px; padding: 0px;">
+                <li>
+                    <img src="Kotak Hitam.jpg" alt="Ini Foto Kotak Hitam" style="width: 15px;">
+                </li>
+                <li>
+                    <strong>Site Name</strong>
+                </li>
+            </ul>
+            <ul style="list-style-type: none; display: flex; gap: 15px; padding: 0px;">
+                <li>
+                    <a href="">Category 1</a>
+                </li>
+                <li>
+                    <a href="">Category 2</a>
+                </li>
+                <li>
+                    <a href="">Category 3</a>
+                </li>
+            </ul>
+            <ul style="display: flex; list-style-type: none; gap: 10px; padding: 0px;">
+                <li>
+                    <img src="search.png" alt="search" style="width :15px">
+                </li>
+                <li>
+                    <img src="Keranjang.png" alt="Keranjang" style="width :15px">
+                </li>
+                <li>
+                    <label>Cart (1)</label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div style="display: flex; border-top: 1px solid black; border-bottom: 1px solid black ; padding: 100px 30px; gap: 50px;">
+        <main style="width: 70%;">
+            <h2 style="margin-top: 0%;">Your Cart</h2>
+            <table style="text-align: left; width: 100%; border-spacing: 0px;border-collapse: collapse;">
+                <thead style="border-top: 1px solid black; border-bottom: 1px solid black;">
+                    <tr>
+                        <td style="padding: 10px 0px;">Item</td>
+                        <td style="padding: 10px 0px;">Price</td>
+                        <td style="padding: 10px 0px;">Quatity</td>
+                    </tr>
+                </thead> 
+                <tbody >
+                    <tr>
+                        <td style="display: flex; padding: 50px 0px; gap: 20px; align-items: center; ">
+                            <img src="Foto Cart.jpg" alt="Gambar Produk" width="200">
+                            <div>
+                                <p>Tshirt</p>
+                                <p>Size Small</p>
+                            </div>
+                        </td>
+                        <td style="padding: 10px 0px; ">
+                            <strong>$20.00</strong>
+                        </td>
+                        <td style="padding: 10px 0px;">
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot style="text-align: left;border-top: 1px solid black; border-bottom: 1px solid black;">
+                    <td style="padding: 10px 0px;">Total</td>
+                    <td style="padding: 10px 0px"></td>
+                    <td style="padding: 10px 0px;"><strong>$20.00</strong></td>
+                </tfoot>    
+            </table>
+        </main>
+        <aside style="padding: 10px; background-color: lightgray; width: 30%; height: 250px; justify-content: center; ">
+            <h3 style="margin: 0px;"><strong>Summary ( 1 item )</strong></h3>
+            <table style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td></td>
+                        <td style="text-align: right;">$20.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td></td>
+                        <td style="text-align: right;">-</td>
+                    </tr>
+                    <tr>
+                        <td>Est. Taxes</td>
+                        <td></td>
+                        <td style="text-align: right;">-</td>
+                    </tr>
+                </tbody>
+                <tfoot >
+                    <tr>
+                        <td style="padding: 10px 0;">Total</td>
+                        <td style="padding: 10px 0;"></td>
+                        <td style="border-top: 1px solid white; text-align: right;">$20.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <a style="color: white; display: flex; justify-content: center; background-color: blue; width: 100%; text-decoration: none; padding: 10px 0" class="btn-checkout" href="Checkout.html">Checkout</a>
+        </aside>
+    </div>
+    <footer >
+        <nav style="display: flex; justify-content: space-between; padding: 10px 30px;">
+            <ul style="list-style-type: none;padding: 0px;">
+                <li>
+                    <strong>Site Name</strong>
+                </li>
+                <li style="display: flex; gap: 10px ;">
+                    <img src="Kotak Hitam.jpg" alt="Ini Foto Kotak Hitam" style="width: 15px;">
+                    <img src="Kotak Hitam.jpg" alt="Ini Foto Kotak Hitam" style="width: 15px;">
+                    <img src="Kotak Hitam.jpg" alt="Ini Foto Kotak Hitam" style="width: 15px;">
+                </li>
+            </ul>
+            <ul style="list-style-type: none; display: flex; gap: 15px; padding: 0px;">
+                <li>
+                    <a href="">Category 1</a>
+                </li>
+                <li>
+                    <a href="">Category 2</a>
+                </li>
+                <li>
+                    <a href="">Category 3</a>
+                </li>
+            </ul>
+            <ul style=" list-style-type: none; gap: 10px; padding: 0px;">
+               <li>
+                    <label>Stay In Touch! Join Our NewsLetter</label>
+               </li>
+               <li>
+                   <form>
+                       <input type="email" style="padding: 3px 7px;"><a href="" style="background-color: darkgray; text-decoration: none;padding: 5px 7px;">Subscribe</a>
+                   </form>
+               </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

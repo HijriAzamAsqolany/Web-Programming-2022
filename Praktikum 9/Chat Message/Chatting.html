@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Tugas 2</title>
+
+    <style type="text/css">
+    	.chatBox{
+        margin: 2px;
+        border: solid 1px blue;
+        width: 450px;
+        height: 250px;
+    }
+        .inp{
+            width: 393px; 
+            margin: 2px; 
+            border: solid 1px blue;
+        }
+        p{
+            margin: 0;
+        }
+    </style>
+
+    <script>
+         function kirim(){
+            let chat    = document.getElementById("message").value;
+            let chatBox = document.getElementById("chatBox");
+            chatBox.insertAdjacentHTML("beforee-nd","<p>"+chat+"</p>");
+            console.log(chat);
+    }
+</script>
+</head>
+<body>
+    <h1>Chat</h1>
+    <div class="chatBox">
+        <div id="chatBox"></div>
+    </div>
+    <input class="inp" type="text" id="message" placeholder="Message..." onchange="kirim()">
+    <button style="background-color: cornflowerblue;" type="button" >Send</button>
+</body>
+</html>

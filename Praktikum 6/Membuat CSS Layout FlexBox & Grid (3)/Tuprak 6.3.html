@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.3</title>
+    <style>
+        .Container-satu{
+            display: flex; 
+            flex-direction: column; 
+            background-color: rgb(252, 151, 151); 
+            padding: 1em; 
+            width: auto; 
+            height: auto; 
+            align-items: stretch;
+        }
+        header,footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgb(136, 240, 191); 
+            width: 97%; 
+            height: 100px; 
+            padding: 10px 10px; 
+        }
+        .Container-dua{
+            display: flex; 
+            min-height: 100vh; 
+            flex-direction: row;
+        }
+        aside{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgb(55, 160, 111); 
+            width: 30%; 
+            height: auto;
+        }
+        article{
+            display:flex; 
+            flex-direction: column;  
+            background-color: rgb(243, 84, 84); 
+            width: 70%; 
+            height: auto; 
+            padding: 15px; 
+            justify-content: flex-end;
+        }
+        #box{
+            display: flex; 
+            flex-direction: row;  
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgb(196, 196, 196); 
+            width: 266px; 
+            height: 200px; 
+            margin: 10px;
+        }
+        nav,header,footer,article,aside{
+            text-align: center; 
+            font-family: sans-serif;
+            color: white; 
+            margin: 10px; 
+            justify-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container-satu">
+        <header><b>Header</b></header>
+            <div class="Container-dua">
+            <aside><b>Aside</b></aside>
+            <article class="article">
+                <div><b>Article</b></div>
+                <div id="box">
+                <div class="box"><b>Image</b></div>
+                <div class="box"><b>Image</b></div>
+                <div class="box"><b>Image</b></div>
+                </div>
+            </article>
+        </div>
+        <footer><b>Footer</b></footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.box1{
+    background-color: rgba(255, 255, 0, 0.589);
+    border: 2px solid;
+    width: 20%;
+    height: 85%;
+    position: absolute;
+    top: 7%;
+    left: 2%;
+}
+
+.box2{
+    background-color: rgba(255, 68, 0, 0.699);
+    border: 2px solid;
+    width: 20%;
+    height: 85%;
+    position: absolute;
+    top: 7%;
+    left: 27%}
+
+.box3{
+    background-color: rgba(82, 241, 82, 0.705);
+    border: 2px solid;
+    width: 20%;
+    height: 85%;
+    position: absolute;
+    top: 7%;
+    left: 52%}
+
+.box4{
+    background-color:rgba(0, 204, 255, 0.877);
+    border: 2px solid;
+    width: 20%;
+    height: 85%;
+    position: absolute;
+    top: 7%;
+    left: 77%;
+}

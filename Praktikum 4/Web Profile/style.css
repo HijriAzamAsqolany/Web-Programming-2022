@@ -1,0 +1,42 @@
+.container{
+    padding: 20px 50px;
+}
+.pimg{
+    display: inline;
+    float: left;
+    object-fit: cover;
+}
+.plist{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.clist{
+    display: inline;
+    float: right;
+    font-size: 17px;
+    text-align: right;
+}
+.pdesc{
+    float: left;
+    font-size: 17px;
+}
+.pcon{
+    float: left;
+}
+.patta{
+    float: right;
+    margin-left: 20px;
+}
+.pcan{
+    border:1px solid #000000;
+    margin-left: 50px;
+    float: left;
+    
+    display: inline;
+}
+.ime{
+    object-fit: cover;
+    padding: 2px;
+}
